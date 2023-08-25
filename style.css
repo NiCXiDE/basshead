@@ -1,11 +1,11 @@
 :root {
-    --color-fondo: #13283E; /* Color de fondo */
+    --color-fondo: #0c1824; /* Color de fondo */
     --color-texto: #e4e4e4; /* Color de texto principal */
     --color-cabecera:#0d60b9; /* Color de cabecera */
     --color-texto-cabecera:#f2f2f2; /* Color de cabecera */
     --color-parrafo: #666; /* Color de párrafo */
     --color-usuario: #13283E; /* Color de nombre de usuario */
-    --color-titulos: #0D1B2A; /* Color de título de juego */
+    --color-titulos: #0a0a0a; /* Color de título de juego */
 }
 body {
     margin: 0px;
@@ -18,20 +18,37 @@ body {
 .header {
     display: flex;
     justify-content: space-around;
+    margin: 0px;
+    padding: 10px;
 }
 .categoria {
     padding: 22px;
     text-align: center;
 }
+
+.a{
+    color: var(--color-texto);
+}
 .header_h1 {
-    display: inline-block;
+    justify-content: left;
+    margin: 0px;
+    padding: 5px;
     
 }
-
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    padding: 5px;
+}
 .header_nav_ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    background-color: var(--color-titulos);
+    padding: 0px;
+    margin: 0px;
 }
 
 .material-symbols-outlined {
