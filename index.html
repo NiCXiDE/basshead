@@ -8,27 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
-    <title>Reseñas de Juegos</title>
+    <title>Criticón</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <h1 class="cabecera">Criticón</h1>
-            <ul>
-                <li><a href="#seccion1">New</a></li>
-                <li><a href="#seccion2">Trending</a></li>
-                <li><a href="#seccion3">Best</a></li>
-                <li>
-                <span class="material-symbols-outlined">search</span>
-                <input type="text" placeholder="Search">
-                </li>
+    <header class="header">
+        <h1 class="header_h1 categoria">Criticón</h1>
+        <nav class="header_nav">
+            <ul class="header_nav_ul">
+                <li class="categoria"><a href="#seccion1">New</a></li>
+                <li class="categoria"><a href="#seccion2">Trending</a></li>
+                <li class="categoria"><a href="#seccion3">Best</a></li>
             </ul>
         </nav>
+        <div class="buscar">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" placeholder="Search">
+        </div>
     </header>    
-
     <main>
         <section id="seccion1">
-            <h2>Trending</h2>
+            <h2 class="subtitulo">Trending</h2>
             <!-- Contenido de la primera sección aquí -->
             <div class="juego" id="juego1">
                 <div class="juego-overlay"></div>

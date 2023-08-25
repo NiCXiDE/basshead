@@ -1,5 +1,5 @@
 :root {
-    --color-fondo: #e8fcff; /* Color de fondo */
+    --color-fondo: #13283E; /* Color de fondo */
     --color-texto: #e4e4e4; /* Color de texto principal */
     --color-cabecera:#0d60b9; /* Color de cabecera */
     --color-texto-cabecera:#f2f2f2; /* Color de cabecera */
@@ -7,51 +7,33 @@
     --color-usuario: #13283E; /* Color de nombre de usuario */
     --color-titulos: #0D1B2A; /* Color de título de juego */
 }
-
-* {
-    background-color: #13283E;
+body {
+    margin: 0px;
+    background-color: var(--color-fondo);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--color-texto);
-    border-width: 1px;
-    border-style: dotted;
-    border-color: black;
-}
-/* Estilos para la cabecera */
-header {
-    display: flex;
-    justify-content: space-between; /* Espacio entre elementos */
-    align-items: center; /* Centrar verticalmente */
-    padding: 10px 20px; /* Espaciado interior */
-}
-.cabecera {
-    padding: 10px;
-}
-nav {
-    display: flex;
-    align-items: center; /* Centrar verticalmente */
-    flex-grow: 1; /* Permite que la barra de búsqueda ocupe el espacio restante */
+    color: var(--color-texto-cabecera);
 }
 
-ul {
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.categoria {
+    padding: 22px;
+    text-align: center;
+}
+.header_h1 {
+    display: inline-block;
+    
+}
+
+.header_nav_ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    align-items: center; /* Centrar verticalmente */
+    justify-content: space-around;
 }
 
-li {
-    margin-right: 10px; /* Espacio entre elementos de la lista */
-}
-
-input[type="text"] {
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-/* iconos */
 .material-symbols-outlined {
     font-variation-settings:
     'FILL' 0,
@@ -61,12 +43,14 @@ input[type="text"] {
     margin-inline-start: auto;
 }
 
-
+.subtitulo {
+    text-align: center;
+}
 .juego {
     position: relative;
     background-size: cover;
     background-position: center;
-    padding: 20px; 
+    padding: 40px; 
     margin-bottom: 20px;
 }
 .juego-overlay {
@@ -80,7 +64,6 @@ input[type="text"] {
 .juego_titulo {
     position: relative;
     font-size: 24px;
-    padding: 5px;
     background: none;
 
 }
@@ -92,13 +75,14 @@ input[type="text"] {
 }
 
 #juego1 {
+
     background-image: url('https://sm.ign.com/ign_latam/cover/c/counter-st/counter-strike-2_my1d.jpg');
     background-position: top;
 }
 
 #juego2 {
     background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202302/2322/aba0802b6d753d0a11f9ccc0f34d945b9abfd2d1f7d89330.png');
-    background-position: center 0px;
+    background-position-y: -2000px;
 
 }
 
