@@ -1,33 +1,33 @@
 :root {
-    --color-fondo: #0c1824; /* Color de fondo */
-    --color-texto: #e4e4e4; /* Color de texto principal */
-    --color-cabecera:#0d60b9; /* Color de cabecera */
-    --color-texto-cabecera:#f2f2f2; /* Color de cabecera */
-    --color-parrafo: #666; /* Color de párrafo */
-    --color-usuario: #13283E; /* Color de nombre de usuario */
-    --color-titulos: #0a0a0a; /* Color de título de juego */
+    --color-bg: #0a1c0c; /* Color de bg */
+    --color-text: #181818; /* Color de text principal */
+    --color-header:#0a0817; /* Color de header */
+    --color-text-header:#f2f2f2; /* Color de header */
+    --color-titles: #0a0a0a; /* Color de título de game */
 }
 body {
-    margin: 0px;
-    background-color: var(--color-fondo);
+    padding: 5px;
+    margin: 1rem;
+    background-color: var(--color-bg);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    color: var(--color-texto-cabecera);
+    color: var(--color-text-header);
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
+    background-color: var(--color-header);
 }
 .categoria {
-    padding: 22px;
+    padding: 1rem;
     text-align: center;
 }
 
 .a{
-    color: var(--color-texto);
+    color: var(--color-text);
 }
 .header_h1 {
     justify-content: left;
@@ -37,7 +37,7 @@ body {
 }
 .buscar {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin:0px;
     padding: 5px;
@@ -46,7 +46,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: left;
-    background-color: var(--color-titulos);
+    background-color: var(--color-titles);
     padding: 0px;
     margin: 0px;
 }
@@ -60,17 +60,17 @@ body {
     margin-inline-start: auto;
 }
 
-.subtitulo {
+.subtitle {
     text-align: center;
 }
-.juego {
+.game {
     position: relative;
     background-size: cover;
     background-position: center;
     padding: 40px; 
     margin-bottom: 20px;
 }
-.juego-overlay {
+.game-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,37 +78,43 @@ body {
     height: 100%;
     background-color: rgba(28, 28, 28, 0.765);
 }
-.juego_titulo {
+.game-title {
     position: relative;
     font-size: 24px;
     background: none;
 
 }
 
-.usuario_nombre {
+.user-name {
     position: relative;
     font-size: 16px;
     background: none;
 }
 
-#juego1 {
+#game1 {
 
     background-image: url('https://sm.ign.com/ign_latam/cover/c/counter-st/counter-strike-2_my1d.jpg');
     background-position: top;
 }
 
-#juego2 {
+#game2 {
     background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202302/2322/aba0802b6d753d0a11f9ccc0f34d945b9abfd2d1f7d89330.png');
     background-position-y: -2000px;
 
 }
 
-#juego3 {
+#game3 {
     background-image: url('https://n8t8d9t2.rocketcdn.me/wp-content/uploads/2021/04/DOOM-Eternal_KeyArt_3_1920x1080.jpg');
     background-position: center -5px;
 }
 
-p {
+.game-review {
     position: relative;
     background: none;
+}
+
+.copyright {
+    font-size:x-small;
+    display: flex;
+    justify-content: center;
 }
