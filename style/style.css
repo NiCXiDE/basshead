@@ -1,5 +1,5 @@
 :root {
-    --color-ad: #ff0000;
+    --color-ad: #1D294C;
     --color-text: #FAFAFF;
     --color-text-alt: #050609;
     --color-header:#0e172f;
@@ -173,4 +173,6 @@ body {
     justify-content: center;
     color: #FAFAFF;
     background-color: var(--color-ad);
+    margin: 0;
+    margin-bottom: 10px;
 }
