@@ -1,67 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
-    <title>Criticón</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
+
+        <title>Criticón</title>
+    </head>
+
 <body>
     <header class="header">
         <h1 class="header_h1">Criticón</h1>
-        
+
         <div class="buscar">
             <span class="material-symbols-outlined">search</span>
             <input type="text" placeholder="Search">
         </div>
     </header>
+
     <nav class="nav">
             <ul class="header_nav_ul">
                 <li class="categoria"><a class="a" href="#section1">New</a></li>
                 <li class="categoria"><a class="a" href="#section2">Trending</a></li>
                 <li class="categoria"><a class="a" href="#section3">Best</a></li>
             </ul>
-        </nav>
-    <main>
-        <section id="section1">
-            <h2 class="subtitle">Trending</h2>
-            <!-- Contenido de la primera sección aquí -->
-            <div class="game" id="game1">
-                <div class="game-overlay"></div>
-                <h3 class="game-title"> Counter Strike 2</h3>
-                <p class="game-review">por <span class="user-name">NiCXiDE</span></p>
-                <p class="game-review"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit ipsum in rem porro quasi sed, earum impedit itaque inventore ipsam veniam ullam ducimus enim cum nulla sint. Sit, rem.</p>
+    </nav>
+    <main class="contenedor">
+        <div class="card">
+            <div class="card-image">
+                <img src="./artworks/cover1.jpg" alt="Feel The Panic EP - Barely Alive">
+                <p class="release-name">Feel The Panic EP</p>
+            </div>
+            <div class="artist">
+                <p">Barely Alive</p>
             </div>
 
-            <div class="game" id="game2">
-                <div class="game-overlay"></div>
-                <h3 class="game-title"> Baldur's Gate 3</h3>
-                <p class="game-review">por <span class="user-name">Maurolezcano81</span></p>
-                <p class="game-review"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit ipsum in rem porro quasi sed, earum impedit itaque inventore ipsam veniam ullam ducimus enim cum nulla sint. Sit, rem.</p>
-            </div>
-
-            <div class="game" id="game3">
-                <div class="game-overlay"></div>
-                <h3 class="game-title"> Doom Eternal</h3>
-                <p class="game-review">por <span class="user-name">leonelvader</span></p>
-                <p class="game-review"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident reprehenderit ipsum in rem porro quasi sed, earum impedit itaque inventore ipsam veniam ullam ducimus enim cum nulla sint. Sit, rem.</p>
-            </div>
-
-        </section>
-
-        <section id="section2">
-            <h2>New Games</h2>
-            <!-- Contenido de la segunda sección aquí -->
-        </section>
-
-        <section id="section3">
-            <h2>Best Reviews</h2>
-            <!-- Contenido de la tercera sección aquí -->
-        </section>
+        </div>
     </main>
 
     <aside>

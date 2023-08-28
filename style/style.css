@@ -1,0 +1,138 @@
+:root {
+    --color-bg: rgba (230,230,230)
+    --color-text: rgb(30, 30, 30);
+    --color-header:#d6d0ff;
+    --color-text-header:#252525; 
+    --color-titles: #cfc5ff;
+}
+body {
+    background-color: var(--color-bg);
+    font-family: 'Roboto', 'Montserrat', sans-serif;
+    color: var(--color-text-header);
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--color-header);
+}
+.categoria {
+    padding: 1rem;
+    text-align: center;
+}
+
+.a{
+    color: var(--color-text);
+}
+.header_h1 {
+    justify-content: left;
+    margin: 0px;
+    padding: 5px;
+    
+}
+.buscar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin:0px;
+    padding: 5px;;
+}
+.header_nav_ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    background-color: var(--color-titles);
+    padding: 0px;
+    margin: 0px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    margin-inline-start: auto;
+}
+
+
+/* LANZAMIENTOS*/
+.contenedor {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    margin: 0px;
+    padding: 5px;
+    position: relative;
+}
+
+.card-image {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 85%;
+    z-index: 1;
+    position: relative;
+}
+
+.card-image::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0); /* Establece la opacidad inicial en 0 */
+    transition: background-color 0.3s ease;
+    z-index: 2;
+    width: 85%; /* Cambia el ancho al 100% */
+    height: 100%; /* Cambia la altura al 100% */
+
+}
+
+.card-image:hover::before {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card-image .release-name {
+    display: none;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.card-image:hover .release-name {
+    display: block;
+}
+
+.artist p {
+    padding: 0%;
+    margin: 0%;
+}
+/* FIN LANZAMIENTOS*/
+
+/*copyright*/
+.copyright {
+    font-size:x-small;
+    display: flex;
+    justify-content: center;
+}
