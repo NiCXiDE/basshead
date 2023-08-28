@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T05:37:19.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="IEdv8Mez7EmVXhoo5CQP" version="21.6.9" type="device">
+<mxfile host="app.diagrams.net" modified="2023-08-28T07:22:00.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="mNmkSO8vpokg_PE6IJqT" version="21.6.9" type="device">
   <diagram name="Página-1" id="j-x9gxblYGBJuGQK0ccG">
     <mxGraphModel dx="1452" dy="1861" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,23 +271,14 @@
         <mxCell id="MwyNYD0S4kKUE-O4JmLu-114" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="210" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="MwyNYD0S4kKUE-O4JmLu-115" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Lirycs&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1480" y="215" width="190" height="195" as="geometry" />
-        </mxCell>
-        <mxCell id="MwyNYD0S4kKUE-O4JmLu-116" value="&lt;h1&gt;titulo de review&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="920" y="430" width="750" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="MwyNYD0S4kKUE-O4JmLu-120" value="Inicio" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" parent="1" vertex="1">
           <mxGeometry x="890" y="70" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MwyNYD0S4kKUE-O4JmLu-121" value="Just dropped" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="70" width="100" height="20" as="geometry" />
+          <mxGeometry x="950" y="70" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MwyNYD0S4kKUE-O4JmLu-122" value="Barely Alive - Feel The Panic EP" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="70" width="200" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="MwyNYD0S4kKUE-O4JmLu-123" value="NiCXiDE" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=10;" parent="1" vertex="1">
-          <mxGeometry x="950" y="70" width="80" height="20" as="geometry" />
+          <mxGeometry x="1050" y="70" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

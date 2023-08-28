@@ -1,16 +1,18 @@
 :root {
-    --color-bg: rgba (230,230,230)
-    --color-text: rgb(30, 30, 30);
-    --color-header:#d6d0ff;
-    --color-text-header:#252525; 
-    --color-titles: #cfc5ff;
+    --color-bg: #EEF0F2;
+    --color-text: #FAFAFF;
+    --color-text-alt: #050609;
+    --color-header:#0e172f;
+    --color-nav: #1D294C;
 }
 body {
-    background-color: var(--color-bg);
+    background-image: url(../miscelaneo/white\ noise\ 2.jpg);
     font-family: 'Roboto', 'Montserrat', sans-serif;
-    color: var(--color-text-header);
+    color: var(--color-text-alt);
     padding: 0;
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -19,9 +21,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: var(--color-header);
+    color: var(--color-text);
 }
 .categoria {
-    padding: 1rem;
+    padding: 5px;
     text-align: center;
 }
 
@@ -30,7 +33,7 @@ body {
 }
 .header_h1 {
     justify-content: left;
-    margin: 0px;
+    margin: 5px;
     padding: 5px;
     
 }
@@ -44,8 +47,8 @@ body {
 .header_nav_ul {
     list-style: none;
     display: flex;
-    justify-content: left;
-    background-color: var(--color-titles);
+    justify-content: space-around;
+    background-color: var(--color-nav);
     padding: 0px;
     margin: 0px;
 }
@@ -58,24 +61,32 @@ body {
     'opsz' 48;
     margin-inline-start: auto;
 }
+.titulo {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    margin-top: 20px;
 
+}
 
 /* LANZAMIENTOS*/
 .contenedor {
-    padding: 20px;
+    
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
     flex-direction: column;
-    height: 250px;
-    width: 250px;
+    height: 242.5px;
+    width: 212.5px;
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     position: relative;
 }
 
@@ -84,10 +95,13 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
+    width: 212.5px;
+    height: 212.5px;
+    
 }
 
 .card-image img {
-    width: 85%;
+    width: 100%;
     z-index: 1;
     position: relative;
 }
@@ -101,23 +115,24 @@ body {
     background-color: rgba(0, 0, 0, 0); /* Establece la opacidad inicial en 0 */
     transition: background-color 0.3s ease;
     z-index: 2;
-    width: 85%; /* Cambia el ancho al 100% */
+    width: 100%; /* Cambia el ancho al 100% */
     height: 100%; /* Cambia la altura al 100% */
 
 }
 
 .card-image:hover::before {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .card-image .release-name {
     display: none;
     z-index: 3;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-size: small;
 }
 
 .card-image:hover .release-name {
@@ -125,9 +140,18 @@ body {
 }
 
 .artist p {
-    padding: 0%;
+    
+    padding: 5px;
     margin: 0%;
 }
+.artist {
+    color: var(--color-text);
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
 /* FIN LANZAMIENTOS*/
 
 /*copyright*/
