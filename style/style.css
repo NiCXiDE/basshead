@@ -1,5 +1,5 @@
 :root {
-    --color-bg: #EEF0F2;
+    --color-ad: #ff0000;
     --color-text: #FAFAFF;
     --color-text-alt: #050609;
     --color-header:#0e172f;
@@ -32,7 +32,8 @@ body {
     color: var(--color-text);
 }
 .header_h1 {
-    justify-content: left;
+    text-align: center;
+    justify-content: center;
     margin: 5px;
     padding: 5px;
     
@@ -154,9 +155,22 @@ body {
 
 /* FIN LANZAMIENTOS*/
 
+.footer {
+    margin: 0px;
+    padding: 20px;
+    background-color: var(--color-header);
+    color: var(--color-text);
+}
 /*copyright*/
 .copyright {
     font-size:x-small;
     display: flex;
     justify-content: center;
+}
+
+.ad {
+    text-align: center;
+    justify-content: center;
+    color: #FAFAFF;
+    background-color: var(--color-ad);
 }
