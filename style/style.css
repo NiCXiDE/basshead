@@ -53,7 +53,13 @@ body {
     justify-content: right;
     align-items: center;
     margin:0px;
-    padding: 5px;;
+    padding: 5px;
+}
+.buscar input {
+    background: var(--color-text);
+    border-style: solid;
+    border-color: var(--color-nav);
+    border-radius: 5px;
 }
 .header_nav_ul {
     list-style: none;
@@ -287,6 +293,7 @@ body {
 .button:hover {
     background: var(--color-deco);
     color:var(--color-text-alt);
+    transition: background-color 0.4s ease;
 }
 
 /* FOOTER */
