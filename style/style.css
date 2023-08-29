@@ -258,11 +258,6 @@ body {
     align-items:center;
     width: 100%;
     margin-bottom: 20px;
-
-}
-.form-div-name {
-    display: flex;
-    justify-content: space-around;
 }
 .fill {
     width: 50%;
