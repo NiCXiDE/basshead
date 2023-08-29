@@ -4,6 +4,7 @@
     --color-text-alt: #050609;
     --color-header:#0e172f;
     --color-nav: #1D294C;
+    --color-deco: #7be5ff;
 }
 body {
     background-image: url(../miscelaneo/white\ noise\ 2.jpg);
@@ -27,15 +28,24 @@ body {
     padding: 5px;
     text-align: center;
 }
+.a:hover{
+    color: var(--color-deco);
+}
 
 .a{
     color: var(--color-text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
+
 .header_h1 {
     text-align: center;
     justify-content: center;
+    align-items: center;
     margin: 5px;
     padding: 5px;
+    color: var(--color-text);
     
 }
 .buscar {
@@ -156,10 +166,13 @@ body {
 /* FIN LANZAMIENTOS*/
 
 .footer {
+    position: relative;
+    bottom: 0;
     margin: 0px;
-    padding: 20px;
     background-color: var(--color-header);
     color: var(--color-text);
+    width: 100%;
+
 }
 /*copyright*/
 .copyright {
@@ -168,11 +181,50 @@ body {
     justify-content: center;
 }
 
-.ad {
+.for-artists {
     text-align: center;
     justify-content: center;
-    color: #FAFAFF;
+    color:var(--color-text);
     background-color: var(--color-ad);
     margin: 0;
     margin-bottom: 10px;
+}
+.for-artists a{
+    color: var(--color-text);
+}
+.for-artists-a:hover {
+    color: var(--color-deco);
+}
+
+/* RUTA */
+
+.ruta {
+    display:flex;
+    align-items: center;
+    margin: 10px;
+    height: 30px;
+    width: 140px;
+    background-color: var(--color-nav);
+    color: var(--color-text);
+    border-radius: 3px;
+}
+.ruta p {
+    margin: 0 4px;
+}
+
+/* FORMULARIO */
+.section-formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-nav);
+}
+.formulario p {
+    color: var(--color-text);
+    margin: 10px;
 }
