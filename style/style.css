@@ -14,6 +14,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.logo {
+    display: flex;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.slogan {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
 
 .header {
     display: flex;
@@ -40,7 +52,7 @@ body {
 
 .header_h1 {
     text-align: center;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     margin: 5px;
     padding: 5px;
@@ -303,7 +315,6 @@ body {
     padding: 10px 0px 10px 0px ;
     background-color: var(--color-header);
     color: var(--color-text);
-
 }
 /* COPYRIGHT */
 .copyright {
