@@ -206,15 +206,17 @@ body {
 .ruta {
     display:flex;
     align-items: center;
+    justify-content: space-evenly  ;
     margin: 10px;
     height: 30px;
-    width: 140px;
+    width: 150px;
     background-color: var(--color-nav);
     color: var(--color-text);
     border-radius: 5px;
 }
-.ruta p {
-    margin: 0 4px;
+.ruta a {
+    color: var(--color-text);
+    text-decoration: none;
 }
 
 /* FORMULARIO */
@@ -258,6 +260,12 @@ body {
     align-items:center;
     width: 100%;
     margin-bottom: 20px;
+}
+
+.name{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
 }
 .fill {
     width: 50%;
