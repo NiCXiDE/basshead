@@ -310,6 +310,7 @@ body {
     background: var(--color-deco);
     color:var(--color-text-alt);
     transition: background-color 0.4s ease;
+    cursor: pointer;
 }
 
 /* FOOTER */
